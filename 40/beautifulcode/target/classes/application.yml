@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Demo project for beautifulcode
+  main:
+    web-application-type: none
+    banner-mode: off
+  output:
+    ansi:
+      enabled: detect
+  profiles:
+    active: default
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%clr([%d{yyyy-MM-dd HH:mm:ss}]){green} %clr([%-5level]){magenta} %clr([%thread]){yellow} %message%n"

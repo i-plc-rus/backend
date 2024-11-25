@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: transactions
+  config:
+    activate:
+      on-profile: dev
+
+transactions:
+  large-amount: 10000
+
+logging:
+  level:
+    org:
+      springframework: INFO

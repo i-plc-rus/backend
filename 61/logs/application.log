@@ -1,0 +1,826 @@
+2024-10-27T16:16:33.830+03:00  INFO 15904 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Starting TransactionProcessorTest using Java 17.0.12 with PID 15904 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T16:16:33.834+03:00 DEBUG 15904 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T16:16:33.836+03:00  INFO 15904 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T16:16:34.907+03:00  INFO 15904 --- [OptimisationTransactionProcessing] [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.bank.transactions.service.TransactionProcessingServiceImpl.STATUS_PENDING
+2024-10-27T16:16:34.908+03:00  INFO 15904 --- [OptimisationTransactionProcessing] [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.bank.transactions.service.TransactionProcessingServiceImpl.STATUS_PROCESSED
+2024-10-27T16:16:35.138+03:00  INFO 15904 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Started TransactionProcessorTest in 2.227 seconds (process running for 5.28)
+2024-10-27T16:16:37.116+03:00  INFO 15904 --- [OptimisationTransactionProcessing] [pool-2-thread-2] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction: 2
+2024-10-27T16:17:00.187+03:00  INFO 31276 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Starting TransactionProcessorTest using Java 17.0.12 with PID 31276 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T16:17:00.191+03:00 DEBUG 31276 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T16:17:00.193+03:00  INFO 31276 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T16:17:01.146+03:00  INFO 31276 --- [OptimisationTransactionProcessing] [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.bank.transactions.service.TransactionProcessingServiceImpl.STATUS_PENDING
+2024-10-27T16:17:01.147+03:00  INFO 31276 --- [OptimisationTransactionProcessing] [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.bank.transactions.service.TransactionProcessingServiceImpl.STATUS_PROCESSED
+2024-10-27T16:17:01.376+03:00  INFO 31276 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Started TransactionProcessorTest in 2.1 seconds (process running for 5.302)
+2024-10-27T16:17:05.537+03:00  INFO 31276 --- [OptimisationTransactionProcessing] [pool-2-thread-2] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction: 2
+2024-10-27T16:18:05.637+03:00  INFO 28452 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Starting TransactionProcessorTest using Java 17.0.12 with PID 28452 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T16:18:05.640+03:00 DEBUG 28452 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T16:18:05.642+03:00  INFO 28452 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T16:18:06.935+03:00  INFO 28452 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessorTest           : Started TransactionProcessorTest in 2.194 seconds (process running for 5.05)
+2024-10-27T16:18:11.245+03:00  INFO 28452 --- [OptimisationTransactionProcessing] [pool-2-thread-2] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction: 2
+2024-10-27T17:09:20.298+03:00  INFO 24644 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 24644 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:09:20.301+03:00 DEBUG 24644 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:09:20.302+03:00  INFO 24644 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:09:21.361+03:00  INFO 24644 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.979 seconds (process running for 4.412)
+2024-10-27T17:09:23.029+03:00  INFO 24644 --- [OptimisationTransactionProcessing] [pool-2-thread-2] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 2
+2024-10-27T17:12:07.716+03:00  INFO 27352 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 27352 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:12:07.718+03:00 DEBUG 27352 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:12:07.720+03:00  INFO 27352 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:12:08.789+03:00  INFO 27352 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.061 seconds (process running for 4.797)
+2024-10-27T17:12:10.523+03:00 DEBUG 27352 --- [OptimisationTransactionProcessing] [main] c.b.t.s.TransactionProcessingServiceImpl : fffff
+2024-10-27T17:12:10.523+03:00  INFO 27352 --- [OptimisationTransactionProcessing] [pool-2-thread-2] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 2
+2024-10-27T17:23:08.478+03:00  INFO 36364 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 36364 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:23:08.481+03:00 DEBUG 36364 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:23:08.482+03:00  INFO 36364 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:23:09.635+03:00  INFO 36364 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.874 seconds (process running for 3.851)
+2024-10-27T17:23:11.333+03:00  INFO 36364 --- [OptimisationTransactionProcessing] [pool-3-thread-2] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 2
+2024-10-27T17:47:32.485+03:00  INFO 11764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 11764 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:47:32.490+03:00 DEBUG 11764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:47:32.493+03:00  INFO 11764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:47:34.153+03:00  INFO 11764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.75 seconds (process running for 7.763)
+2024-10-27T17:50:51.006+03:00  INFO 26112 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 26112 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:50:51.009+03:00 DEBUG 26112 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:50:51.013+03:00  INFO 26112 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:50:52.397+03:00  INFO 26112 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.327 seconds (process running for 6.757)
+2024-10-27T17:52:36.431+03:00  INFO 31204 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 31204 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:52:36.434+03:00 DEBUG 31204 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:52:36.436+03:00  INFO 31204 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:52:37.905+03:00  INFO 31204 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.482 seconds (process running for 7.694)
+2024-10-27T17:59:21.295+03:00  INFO 32940 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 32940 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:59:21.297+03:00 DEBUG 32940 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:59:21.299+03:00  INFO 32940 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:59:22.316+03:00  INFO 32940 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.836 seconds (process running for 4.363)
+2024-10-27T17:59:44.312+03:00  INFO 27544 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 27544 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T17:59:44.314+03:00 DEBUG 27544 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T17:59:44.315+03:00  INFO 27544 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:59:45.338+03:00  INFO 27544 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.834 seconds (process running for 4.217)
+2024-10-27T18:03:24.788+03:00  INFO 33928 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 33928 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:03:24.791+03:00 DEBUG 33928 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:03:24.792+03:00  INFO 33928 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:03:25.862+03:00  INFO 33928 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.813 seconds (process running for 4.606)
+2024-10-27T18:13:31.430+03:00  INFO 36224 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 36224 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:13:31.432+03:00 DEBUG 36224 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:13:31.433+03:00  INFO 36224 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:13:32.562+03:00  INFO 36224 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.897 seconds (process running for 4.592)
+2024-10-27T18:15:24.716+03:00  INFO 22108 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 22108 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:15:24.721+03:00 DEBUG 22108 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:15:24.723+03:00  INFO 22108 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:15:26.060+03:00  INFO 22108 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.222 seconds (process running for 5.129)
+2024-10-27T18:15:39.877+03:00  INFO 30764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 30764 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:15:39.881+03:00 DEBUG 30764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:15:39.883+03:00  INFO 30764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:15:41.157+03:00  INFO 30764 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.177 seconds (process running for 5.181)
+2024-10-27T18:15:53.280+03:00  INFO 7160 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 7160 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:15:53.284+03:00 DEBUG 7160 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:15:53.285+03:00  INFO 7160 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:15:54.572+03:00  INFO 7160 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.159 seconds (process running for 4.937)
+2024-10-27T18:17:24.826+03:00  WARN 7160 --- [OptimisationTransactionProcessing] [main] c.b.t.s.TransactionProcessingServiceImpl : Executor service did not terminate in the specified time.
+2024-10-27T18:18:29.616+03:00  INFO 34408 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 34408 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:18:29.619+03:00 DEBUG 34408 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:18:29.621+03:00  INFO 34408 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:18:30.679+03:00  INFO 34408 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.923 seconds (process running for 4.672)
+2024-10-27T18:18:32.341+03:00  INFO 34408 --- [OptimisationTransactionProcessing] [pool-4-thread-1] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 1
+2024-10-27T18:22:26.335+03:00  INFO 33248 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 33248 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:22:26.338+03:00 DEBUG 33248 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:22:26.339+03:00  INFO 33248 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:22:27.358+03:00  INFO 33248 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.938 seconds (process running for 4.446)
+2024-10-27T18:22:28.982+03:00  INFO 33248 --- [OptimisationTransactionProcessing] [pool-5-thread-1] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 1
+2024-10-27T18:23:14.697+03:00  INFO 32180 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 32180 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:23:14.701+03:00 DEBUG 32180 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:23:14.703+03:00  INFO 32180 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:23:16.261+03:00  INFO 32180 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.659 seconds (process running for 5.59)
+2024-10-27T18:24:03.109+03:00  INFO 32180 --- [OptimisationTransactionProcessing] [pool-5-thread-1] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 1
+2024-10-27T18:24:15.239+03:00  INFO 6220 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 6220 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:24:15.242+03:00 DEBUG 6220 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:24:15.244+03:00  INFO 6220 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:24:16.564+03:00  INFO 6220 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.22 seconds (process running for 5.07)
+2024-10-27T18:24:34.393+03:00  INFO 6220 --- [OptimisationTransactionProcessing] [pool-5-thread-1] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 1
+2024-10-27T18:36:43.841+03:00  INFO 28548 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 28548 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:36:43.843+03:00 DEBUG 28548 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:36:43.844+03:00  INFO 28548 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:36:44.872+03:00  INFO 28548 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.772 seconds (process running for 4.131)
+2024-10-27T18:37:29.561+03:00  INFO 6420 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 6420 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:37:29.564+03:00 DEBUG 6420 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:37:29.565+03:00  INFO 6420 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:37:30.740+03:00  INFO 6420 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.094 seconds (process running for 5.032)
+2024-10-27T18:38:12.522+03:00  INFO 26552 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 26552 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:38:12.525+03:00 DEBUG 26552 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:38:12.527+03:00  INFO 26552 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:38:13.577+03:00  INFO 26552 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.803 seconds (process running for 4.204)
+2024-10-27T18:39:18.681+03:00  INFO 26664 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 26664 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:39:18.683+03:00 DEBUG 26664 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:39:18.684+03:00  INFO 26664 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:39:19.684+03:00  INFO 26664 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.757 seconds (process running for 4.026)
+2024-10-27T18:40:06.411+03:00  INFO 34064 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 34064 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:40:06.413+03:00 DEBUG 34064 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:40:06.414+03:00  INFO 34064 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:40:07.393+03:00  INFO 34064 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.782 seconds (process running for 4.034)
+2024-10-27T18:42:43.457+03:00  INFO 24032 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 24032 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:42:43.460+03:00 DEBUG 24032 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:42:43.461+03:00  INFO 24032 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:42:44.728+03:00  INFO 24032 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.156 seconds (process running for 4.951)
+2024-10-27T18:47:04.597+03:00  INFO 25680 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 25680 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:47:04.599+03:00 DEBUG 25680 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:47:04.601+03:00  INFO 25680 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:47:05.587+03:00  INFO 25680 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.876 seconds (process running for 4.23)
+2024-10-27T18:47:55.303+03:00  INFO 3176 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 3176 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:47:55.307+03:00 DEBUG 3176 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:47:55.309+03:00  INFO 3176 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:47:56.365+03:00  INFO 3176 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.031 seconds (process running for 4.582)
+2024-10-27T18:53:52.234+03:00  INFO 29908 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 29908 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:53:52.236+03:00 DEBUG 29908 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:53:52.238+03:00  INFO 29908 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:53:53.223+03:00  INFO 29908 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.844 seconds (process running for 4.153)
+2024-10-27T18:54:48.644+03:00  INFO 35708 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 35708 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T18:54:48.647+03:00 DEBUG 35708 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T18:54:48.648+03:00  INFO 35708 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T18:54:49.606+03:00  INFO 35708 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.794 seconds (process running for 4.045)
+2024-10-27T19:13:13.257+03:00  INFO 28972 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 28972 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:13:13.259+03:00 DEBUG 28972 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:13:13.261+03:00  INFO 28972 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:13:14.376+03:00  INFO 28972 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.908 seconds (process running for 4.45)
+2024-10-27T19:13:47.251+03:00  INFO 28620 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 28620 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:13:47.254+03:00 DEBUG 28620 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:13:47.255+03:00  INFO 28620 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:13:48.263+03:00  INFO 28620 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.783 seconds (process running for 4.056)
+2024-10-27T19:30:31.976+03:00  INFO 34988 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 34988 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:30:31.979+03:00 DEBUG 34988 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:30:31.981+03:00  INFO 34988 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:30:32.179+03:00  WARN 34988 --- [OptimisationTransactionProcessing] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+2024-10-27T19:30:32.249+03:00 ERROR 34988 --- [OptimisationTransactionProcessing] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'transactionRepository' for bean class [com.bank.transactions.source_code.TransactionRepositoryOld] conflicts with existing, non-compatible bean definition of same name and class [com.bank.transactions.repository.TransactionRepository]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 90 common frames omitted
+
+2024-10-27T19:30:32.267+03:00  WARN 34988 --- [OptimisationTransactionProcessing] [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.bank.transactions.TransactionProcessingTest@710b30ef]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@26f1249d testClass = com.bank.transactions.TransactionProcessingTest, locations = [], classes = [com.bank.transactions.OptimisationTransactionProcessingApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5f9b2141, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@50ad3bc1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@ea6147e, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@4bb33f74, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@47faa49c, org.springframework.boot.test.context.SpringBootTestAnnotation@8b6c37a3], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.14.jar:6.1.14]
+	... 72 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'transactionRepository' for bean class [com.bank.transactions.source_code.TransactionRepositoryOld] conflicts with existing, non-compatible bean definition of same name and class [com.bank.transactions.repository.TransactionRepository]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 90 common frames omitted
+
+2024-10-27T19:30:47.416+03:00  INFO 14436 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 14436 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:30:47.420+03:00 DEBUG 14436 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:30:47.422+03:00  INFO 14436 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:30:47.628+03:00  WARN 14436 --- [OptimisationTransactionProcessing] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+2024-10-27T19:30:47.702+03:00 ERROR 14436 --- [OptimisationTransactionProcessing] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'transactionRepository' for bean class [com.bank.transactions.source_code.TransactionRepositoryOld] conflicts with existing, non-compatible bean definition of same name and class [com.bank.transactions.repository.TransactionRepository]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 90 common frames omitted
+
+2024-10-27T19:30:47.722+03:00  WARN 14436 --- [OptimisationTransactionProcessing] [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.bank.transactions.TransactionProcessingTest@70d8de]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@5b989dc7 testClass = com.bank.transactions.TransactionProcessingTest, locations = [], classes = [com.bank.transactions.OptimisationTransactionProcessingApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4d5b6aac, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@483f6d77, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4d465b11, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@73e22a3d, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@52af26ee, org.springframework.boot.test.context.SpringBootTestAnnotation@68ac1ce2], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.14.jar:6.1.14]
+	... 72 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'transactionRepository' for bean class [com.bank.transactions.source_code.TransactionRepositoryOld] conflicts with existing, non-compatible bean definition of same name and class [com.bank.transactions.repository.TransactionRepository]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 90 common frames omitted
+
+2024-10-27T19:31:27.666+03:00  INFO 31892 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 31892 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:31:27.669+03:00 DEBUG 31892 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:31:27.672+03:00  INFO 31892 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:31:27.895+03:00  WARN 31892 --- [OptimisationTransactionProcessing] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+2024-10-27T19:31:27.969+03:00 ERROR 31892 --- [OptimisationTransactionProcessing] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'transactionRepository' for bean class [com.bank.transactions.source_code.TransactionRepositoryOld] conflicts with existing, non-compatible bean definition of same name and class [com.bank.transactions.repository.TransactionRepository]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 90 common frames omitted
+
+2024-10-27T19:31:27.988+03:00  WARN 31892 --- [OptimisationTransactionProcessing] [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.bank.transactions.TransactionProcessingTest@70d8de]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@5b989dc7 testClass = com.bank.transactions.TransactionProcessingTest, locations = [], classes = [com.bank.transactions.OptimisationTransactionProcessingApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4d5b6aac, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@483f6d77, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4d465b11, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@73e22a3d, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@52af26ee, org.springframework.boot.test.context.SpringBootTestAnnotation@68ac1ce2], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.5.jar:5.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.5.jar:1.10.5]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.bank.transactions.OptimisationTransactionProcessingApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.3.5.jar:3.3.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.14.jar:6.1.14]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.14.jar:6.1.14]
+	... 72 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'transactionRepository' for bean class [com.bank.transactions.source_code.TransactionRepositoryOld] conflicts with existing, non-compatible bean definition of same name and class [com.bank.transactions.repository.TransactionRepository]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 90 common frames omitted
+
+2024-10-27T19:33:38.447+03:00  INFO 29448 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 29448 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:33:38.450+03:00 DEBUG 29448 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:33:38.453+03:00  INFO 29448 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:33:39.780+03:00  INFO 29448 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 2.279 seconds (process running for 5.297)
+2024-10-27T19:33:54.505+03:00  INFO 11524 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 11524 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:33:54.507+03:00 DEBUG 11524 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:33:54.508+03:00  INFO 11524 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:33:55.522+03:00  INFO 11524 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.789 seconds (process running for 4.191)
+2024-10-27T19:34:23.413+03:00  INFO 16716 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 16716 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:34:23.415+03:00 DEBUG 16716 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:34:23.416+03:00  INFO 16716 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:34:24.467+03:00  INFO 16716 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.872 seconds (process running for 4.262)
+2024-10-27T19:35:19.288+03:00  INFO 6532 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 6532 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:35:19.290+03:00 DEBUG 6532 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:35:19.291+03:00  INFO 6532 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:35:20.330+03:00  INFO 6532 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.854 seconds (process running for 4.269)
+2024-10-27T19:35:52.722+03:00  INFO 32936 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 32936 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:35:52.724+03:00 DEBUG 32936 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:35:52.725+03:00  INFO 32936 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:35:53.733+03:00  INFO 32936 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.805 seconds (process running for 4.16)
+2024-10-27T19:36:19.433+03:00  INFO 19960 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 19960 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:36:19.435+03:00 DEBUG 19960 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:36:19.437+03:00  INFO 19960 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:36:20.435+03:00  INFO 19960 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.837 seconds (process running for 4.155)
+2024-10-27T19:36:58.938+03:00  INFO 10672 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 10672 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:36:58.940+03:00 DEBUG 10672 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:36:58.941+03:00  INFO 10672 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:36:59.980+03:00  INFO 10672 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.886 seconds (process running for 4.309)
+2024-10-27T19:39:40.557+03:00  INFO 9784 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 9784 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:39:40.559+03:00 DEBUG 9784 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:39:40.561+03:00  INFO 9784 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:39:41.594+03:00  INFO 9784 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.807 seconds (process running for 4.096)
+2024-10-27T19:40:27.624+03:00  INFO 6388 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Starting TransactionProcessingTest using Java 17.0.12 with PID 6388 (started by luck in C:\Users\emir-\Downloads\OptimisationTransactionProcessing)
+2024-10-27T19:40:27.626+03:00 DEBUG 6388 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-10-27T19:40:27.628+03:00  INFO 6388 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T19:40:28.678+03:00  INFO 6388 --- [OptimisationTransactionProcessing] [main] c.b.t.TransactionProcessingTest          : Started TransactionProcessingTest in 1.909 seconds (process running for 4.364)
+2024-10-27T19:40:30.700+03:00  INFO 6388 --- [OptimisationTransactionProcessing] [pool-6-thread-1] c.b.t.s.TransactionProcessingServiceImpl : Processing large transaction with ID: 1

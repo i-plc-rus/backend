@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ${APPLICATION_NAME}
+
+transactions:
+  large-amount: ${LARGE_AMOUNT_TRANSACTION}
+
+logging:
+  level:
+    org:
+      springframework: ${SPRING_LOG_LEVEL}

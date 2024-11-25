@@ -1,0 +1,43 @@
+package com.example.proj.logger;
+
+import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+@Component
+public class AppLogger {
+
+
+    private final List<String> logBuffer = new CopyOnWriteArrayList<>(); // Потокобезопасный список для логов
+    private final int bufferSize = 100000000;  // Размер буфера для накопления логов
+    private final ExecutorService executor = Executors.newSingleThreadExecutor();  // Асинхронный исполнитель
+
+    public void log(String message) {
+        logBuffer.add(message);  // Добавляем сообщение в буфер
+
+        if (logBuffer.size() >= bufferSize) {
+            flushLogs();  // Если буфер заполнен, сбрасываем логи
+        }
+    }
+
+    // Метод для записи логов в фоновом потоке
+    public void flushLogs() {
+        executor.submit(() -> {
+            // Обработаем логи в фоновом потоке
+            if (!logBuffer.isEmpty()) {
+                logBuffer.forEach(System.out::println);  // Выводим или сохраняем логи
+                logBuffer.clear();  // Очищаем буфер после записи
+            }
+        });
+    }
+
+    // Метод для безопасного завершения работы логгера
+    public void shutdown() {
+        executor.shutdown();  // Останавливаем Executor
+    }
+}

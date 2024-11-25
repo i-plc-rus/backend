@@ -1,0 +1,10 @@
+transaction:
+  executor:
+    queue_size: 1000
+    thread_pool_size: 100
+    keep_alive_time: 60
+  type:
+    amount:
+        large_threshold: 10000
+        medium_threshold: 1000
+        small_threshold: 0
